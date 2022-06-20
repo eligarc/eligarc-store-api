@@ -8,9 +8,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: test
+      POSTGRES_USER: eligarc
+      POSTGRES_PASSWORD: admin12345
+      POSTGRES_DB: my_store
     volumes:
       - postgres-data:/var/lib/postgresql/data
     restart: unless-stopped
